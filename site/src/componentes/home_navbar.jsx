@@ -71,6 +71,38 @@ export default class MenuNavegacao extends Component {
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Penteados
+                                </DropdownToggle>
+                                <DropdownMenu>
+                                    <DropdownItem>
+                                        Noivas
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Festa
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Formatura
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Pé e Mão
+                                </DropdownToggle>
+                                <DropdownMenu>
+                                    <DropdownItem>
+                                        Teste
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Teste
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Teste
+                                    </DropdownItem>
+                                </DropdownMenu>    
+                            </UncontrolledDropdown>
                         </Nav>
                     </Collapse>
                 </Navbar>
