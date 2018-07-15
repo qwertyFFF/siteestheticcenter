@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './home_navbar.css';
 import {
     Collapse,
     Navbar,
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem,
-    NavLink,
+    //NavItem,
+    //NavLink,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
@@ -28,34 +29,45 @@ export default class MenuNavegacao extends Component {
           isOpen: !this.state.isOpen
         });
     }
+
     render() {
         return (
             <div>
-                <Navbar className="navbar navbar-expand-lg navbar-dark bg-primary My-Navbar" expand="md">
+                <Navbar className="navbar navbar-expand-lg navbar-dark My-bg-primary" expand="md">
                     <NavbarBrand href="/">Home</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="" navbar>
-                            <NavItem>
-                                <NavLink href="#">Components</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="#">GitHub</NavLink>
-                            </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
-                                    Options
+                                    Cabelos
                                 </DropdownToggle>
-                                <DropdownMenu right>
+                                <DropdownMenu>
                                     <DropdownItem>
-                                        Option 1
+                                        Progressiva
                                     </DropdownItem>
                                     <DropdownItem>
-                                        Option 2
+                                        Luzes
                                     </DropdownItem>
+                                    <DropdownItem>
+                                        Mega Hair
+                                    </DropdownItem>    
                                     <DropdownItem divider />
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Maquiagem
+                                </DropdownToggle>
+                                <DropdownMenu>
                                     <DropdownItem>
-                                        Reset
+                                        Noivas
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Festa
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Formatura
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
