@@ -103,6 +103,22 @@ export default class MenuNavegacao extends Component {
                                     </DropdownItem>
                                 </DropdownMenu>    
                             </UncontrolledDropdown>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Outros Serviços
+                                </DropdownToggle>
+                                <DropdownMenu>
+                                    <DropdownItem>
+                                        Teste
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Teste
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Teste
+                                    </DropdownItem>
+                                </DropdownMenu>    
+                            </UncontrolledDropdown>
                         </Nav>
                     </Collapse>
                 </Navbar>
