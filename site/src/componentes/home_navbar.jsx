@@ -37,9 +37,9 @@ export default class MenuNavegacao extends Component {
                     <NavbarBrand href="/">Home</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="" navbar>
+                        <Nav navbar>
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle nav caret className="my-text-navbar-color">
                                     Cabelos
                                 </DropdownToggle>
                                 <DropdownMenu>
@@ -56,7 +56,7 @@ export default class MenuNavegacao extends Component {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle nav caret className="my-text-navbar-color">
                                     Maquiagem
                                 </DropdownToggle>
                                 <DropdownMenu>
@@ -72,7 +72,7 @@ export default class MenuNavegacao extends Component {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle nav caret className="my-text-navbar-color">
                                     Penteados
                                 </DropdownToggle>
                                 <DropdownMenu>
@@ -88,7 +88,7 @@ export default class MenuNavegacao extends Component {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle nav caret className="my-text-navbar-color">
                                     Pé e Mão
                                 </DropdownToggle>
                                 <DropdownMenu>
@@ -104,7 +104,7 @@ export default class MenuNavegacao extends Component {
                                 </DropdownMenu>    
                             </UncontrolledDropdown>
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle nav caret className="my-text-navbar-color">
                                     Outros Serviços
                                 </DropdownToggle>
                                 <DropdownMenu>

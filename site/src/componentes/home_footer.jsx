@@ -10,7 +10,10 @@ export default class Rodape extends Component {
 
                 </div>
                 <div className="my-row row-cinza-escuro">
-
+                    <div className="container">
+                        <p className="pull-left">Esthetic Center &copy; 2018 -  Todos os direitos reservados</p>
+                        <p className="pull-right">Desenvolvido por Alessadro Spiercort</p>
+                    </div>
                 </div>
             </footer>
         );
