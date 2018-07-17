@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './home_navbar.css';
+import './home.css';
 import {
     Collapse,
     Navbar,
@@ -33,7 +33,7 @@ export default class MenuNavegacao extends Component {
     render() {
         return (
             <div>
-                <Navbar className="navbar navbar-expand-lg navbar-dark My-bg-primary" expand="md">
+                <Navbar className="navbar navbar-expand-lg navbar-dark My-bg-primary fixed-top" expand="md">
                     <NavbarBrand href="/">Home</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>

@@ -1,0 +1,20 @@
+.My-bg-primary {
+    background-color: #646464 !important;
+}
+
+.My-body-color {
+    background-color: #d4bdb7 !important;
+}
+footer .my-row {
+    width: 100%;
+}
+
+footer .row-cinza-claro {
+    height: 200px;
+    background-color: #646464;
+}
+
+footer .row-cinza-escuro {
+    height: 60px;
+    background-color: #333;
+}
