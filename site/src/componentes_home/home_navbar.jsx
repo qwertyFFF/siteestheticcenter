@@ -31,6 +31,8 @@ export default class MenuNavegacao extends Component {
         });
     }
 
+    /*FALTA INSERIR OS ÍCONES AO LADO DE CADA MENU DROPDOWN*/
+
     render() {
         return (
             <div>

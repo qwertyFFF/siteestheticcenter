@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './index.css';
 import registerServiceWorker from './registerServiceWorker';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MenuNavegacao from './componentes/home_navbar';
-import Rodape from './componentes/home_footer';
+import MenuNavegacao from './componentes_home/home_navbar';
+import Rodape from './componentes_home/home_footer';
+import Apresentacao from './componentes_home/home_apresentacao';
 
 ReactDOM.render(<MenuNavegacao />, document.getElementById('root'));
 registerServiceWorker();
 
 ReactDOM.render(<Rodape />, document.getElementById('footer'));
+registerServiceWorker();
+
+ReactDOM.render(<Apresentacao />, document.getElementById('apres'));
 registerServiceWorker();
