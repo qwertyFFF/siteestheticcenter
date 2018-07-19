@@ -39,4 +39,12 @@ footer .my-row p {
 
 .my-text-navbar-color {
     color: #d4bdb7 !important;
+    font-size: 12px !important;
+    padding-right: 70px !important;
 }
+
+.my-text-navbrand-color {
+    color: #d4bdb7 !important;
+    padding-right: 125px !important;
+}
+

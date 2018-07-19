@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './logonav.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
 import {
@@ -34,7 +35,9 @@ export default class MenuNavegacao extends Component {
         return (
             <div>
                 <Navbar className="navbar navbar-expand-lg navbar-dark My-bg-primary fixed-top" expand="md">
-                    <NavbarBrand href="/">Home</NavbarBrand>
+                    <NavbarBrand className="my-text-navbrand-color" href="/"><img src={logo} alt="Logo navbar" style={{width: 45, height: 45}}/>
+                        Esthetic Center
+                    </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav navbar>
