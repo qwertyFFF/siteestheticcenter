@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logonav.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
+import { Link } from 'react-router-dom';
 import {
     Collapse,
     Navbar,
@@ -49,6 +50,7 @@ export default class MenuNavegacao extends Component {
                                 </DropdownToggle>
                                 <DropdownMenu>
                                     <DropdownItem>
+                                        <Link to="/sobre">Ir para a página sobre \o/</Link>
                                         Progressiva
                                     </DropdownItem>
                                     <DropdownItem>
