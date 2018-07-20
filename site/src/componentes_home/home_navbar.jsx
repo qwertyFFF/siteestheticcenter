@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logonav.png';
+import logo from './logo.png';
+import cabelo from './cabelos.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
 import { Link } from 'react-router-dom';
@@ -46,7 +47,7 @@ export default class MenuNavegacao extends Component {
                         <Nav navbar>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret className="my-text-navbar-color">
-                                    Cabelos
+                                    <img src={cabelo} alt="imagem cabelos" style={{width: 15, height: 20}}/>Cabelos
                                 </DropdownToggle>
                                 <DropdownMenu>
                                     <DropdownItem>
