@@ -50,8 +50,7 @@ export default class MenuNavegacao extends Component {
                                 </DropdownToggle>
                                 <DropdownMenu>
                                     <DropdownItem>
-                                        <Link to="/sobre">Ir para a página sobre \o/</Link>
-                                        Progressiva
+                                        <Link to="/sobre">Progressiva</Link> 
                                     </DropdownItem>
                                     <DropdownItem>
                                         Luzes
