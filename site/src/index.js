@@ -11,7 +11,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route path="/" exact={true} component={MenuNavegacao} />
-            <Route path="/sobre" component={MenuProgressiva} />
+            <Route path="/progressiva" component={MenuProgressiva} />
         </Switch>
     </ BrowserRouter>
     , document.getElementById('root'));
