@@ -15,7 +15,7 @@ ReactDOM.render(
             <Route path="/progressiva" component={Progressiva} />
         </Switch>
     </ BrowserRouter>
-    , document.getElementById('apres'));
+    , document.getElementById('prog'));
 registerServiceWorker();
 
 ReactDOM.render(<Rodape />, document.getElementById('footer'));
