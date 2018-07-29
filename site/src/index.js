@@ -3,22 +3,21 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import MenuNavegacao from './componentes_home/home_navbar';
 import Rodape from './componentes_home/home_footer';
-import Apresentacao from './componentes_home/home_apresentacao';
-import MenuProgressiva from './componentes_home/progressiva';
+import Progressiva from './componentes_home/progressiva';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+ReactDOM.render(<MenuNavegacao />, document.getElementById('root'));
+registerServiceWorker();
 
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
-            <Route path="/" exact={true} component={MenuNavegacao} />
-            <Route path="/progressiva" component={MenuProgressiva} />
+            <Route path="/progressiva" component={Progressiva} />
         </Switch>
     </ BrowserRouter>
-    , document.getElementById('root'));
+    , document.getElementById('apres'));
 registerServiceWorker();
 
 ReactDOM.render(<Rodape />, document.getElementById('footer'));
-registerServiceWorker();
+registerServiceWorker(); 
 
-ReactDOM.render(<Apresentacao />, document.getElementById('apres'));
-registerServiceWorker();
