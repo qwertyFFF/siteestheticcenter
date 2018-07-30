@@ -11,12 +11,10 @@ import Luzes from './menu_cabelos/componentes_luzes/luzes';
 ReactDOM.render(<MenuNavegacao />, document.getElementById('navbar'));
 registerServiceWorker();
 
-ReactDOM.render(<Home />, document.getElementById('home'));
-registerServiceWorker();
-
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
+            <Route exact path="/" component={Home}/>
             <Route path="/progressiva" component={Progressiva} />
             <Route path="/luzes" component={Luzes}/>
         </Switch>
