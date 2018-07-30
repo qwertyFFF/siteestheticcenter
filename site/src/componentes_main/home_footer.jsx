@@ -6,7 +6,7 @@ import logo from './logo.png';
 export default class Rodape extends Component {
     render() {
         return (
-            <footer className="fixed-bottom">
+            <footer>
                 <div className="my-row row-cinza-claro">
 
                 </div>

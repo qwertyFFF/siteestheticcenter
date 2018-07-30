@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-class Progressiva extends Component {
+
+class Luzes extends Component {
     render() {
         return (
             <div>
@@ -10,11 +11,11 @@ class Progressiva extends Component {
                 <br/>
                 <br/>
                 <div className="jumbotron">
-                    <h1>Teste Progressiva</h1>
+                    <h1>Teste Luzes</h1>
                 </div>
-            </div>        
+            </div>
         );
     }
 }
 
-export default Progressiva;
+export default Luzes;

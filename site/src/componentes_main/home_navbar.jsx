@@ -49,7 +49,7 @@ export default class MenuNavegacao extends Component {
                                     <DropdownItem href="/progressiva">
                                         Progressiva
                                     </DropdownItem>
-                                    <DropdownItem>
+                                    <DropdownItem href="/luzes">
                                         Luzes
                                     </DropdownItem>
                                     <DropdownItem>
