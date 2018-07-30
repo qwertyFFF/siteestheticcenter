@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import MenuNavegacao from './componentes_home/home_navbar';
 import Rodape from './componentes_home/home_footer';
-import Progressiva from './componentes_home/progressiva';
+import Progressiva from './componentes_progressiva/progressiva';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(<MenuNavegacao />, document.getElementById('root'));
