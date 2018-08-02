@@ -10,7 +10,7 @@ export default class Rodape extends Component {
                 <div className="my-row row-cinza-claro">
 
                 </div>
-                <div className="my-row row-cinza-escuro">
+                <div className="my-row" style={styles.row_cinza_escuro}>
                     <div className="container">
                         <p className="pull-left"><img src={logo} alt="Logo footer" style={{width: 45, height: 45}}/>
                             Esthetic Center &copy; {new Date().getFullYear()} - Todos os direitos reservados</p>
@@ -21,4 +21,18 @@ export default class Rodape extends Component {
         );
     }
 }
+
+//Estilos do home_footer
+const styles = ({
+
+    row_cinza_escuro: {
+        
+        height: '50px',
+        backgroundColor: '#333'
+    },
+    my_row: {
+
+        width: '100%'
+    },
+});
 
