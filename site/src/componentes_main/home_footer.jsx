@@ -8,7 +8,6 @@ export default class Rodape extends Component {
         return (
             <footer>
                 <div className="my-row row-cinza-claro">
-
                 </div>
                 <div className="my-row" style={styles.row_cinza_escuro}>
                     <div className="container">
@@ -22,7 +21,7 @@ export default class Rodape extends Component {
     }
 }
 
-//Estilos do home_footer
+//Estilos home_footer
 const styles = ({
 
     row_cinza_escuro: {
