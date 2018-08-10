@@ -14,11 +14,12 @@ export default class Rodape extends Component {
                 <div className="my-row" style={styles.row_cinza_escuro}>
                     <div className="container">
                         <p className="pull-left"><img src={logo} alt="Logo footer" style={{width: 45, height: 45}}/>
-                            Esthetic Center &copy; {new Date().getFullYear()} - Todos os direitos reservados</p>
+                            Esthetic Center &copy; {new Date().getFullYear()} - Todos os direitos reservados
+                        </p>
                         <p className="pull-right">Desenvolvido por Alessadro Spiercort</p>
                     </div>
                 </div>
-                <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
+                <ScrollButton scrollStepInPx="50" delayInMs="10.66"/>
             </footer>
         );
     }

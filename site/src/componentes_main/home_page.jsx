@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Parallax } from 'react-parallax';
+import GoogleMapReact from 'google-map-react';
 
 const image1 = "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 export default class Home extends Component {
+    static defaultProps = {
+        center: {
+          lat: -30.086595,
+          lng: -51.222959
+        },
+        zoom: 20
+    };
+
     render() {
         return (
             <div>
@@ -23,6 +33,25 @@ export default class Home extends Component {
                         <div style={styles.insideStyles}>HTML inside the parallax</div>
                     </div>
                 </Parallax>
+                <br/>
+                {/*Google Maps API*/}
+                <div className="container">
+                    <h1>Teste</h1>
+                    <div style={{ height: '100vh', width: '100%' }}>
+                        <GoogleMapReact
+                            bootstrapURLKeys={{ key: 'AIzaSyCOmI3kxB9Ua0meiiQy4QB2rDrlRc2GKG8' }}
+                            defaultCenter={this.props.center}
+                            defaultZoom={this.props.zoom}
+                            >
+                            <AnyReactComponent
+                                lat={-30.086595}
+                                lng={-51.222959}
+                                text={'Esthetic Center'}
+                            />
+                        </GoogleMapReact>
+                    </div>
+                </div>
+                <br/>
             </div>
         );
     }

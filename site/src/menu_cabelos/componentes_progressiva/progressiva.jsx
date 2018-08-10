@@ -12,6 +12,15 @@ class Progressiva extends Component {
                 <div className="jumbotron">
                     <h1>Teste Progressiva</h1>
                 </div>
+                <div className="jumbotron">
+                    <h1>Teste Progressiva</h1>
+                </div>
+                <div className="jumbotron">
+                    <h1>Teste Progressiva</h1>
+                </div>
+                <div className="jumbotron">
+                    <h1>Teste Progressiva</h1>
+                </div>
             </div>        
         );
     }
