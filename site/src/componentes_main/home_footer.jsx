@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
 import logo from './logo.png';
+import {CircleArrow as ScrollButton} from "react-scroll-up-button";
 
 export default class Rodape extends Component {
     render() {
         return (
             <footer>
                 <div className="my-row row-cinza-claro">
+
                 </div>
                 <div className="my-row" style={styles.row_cinza_escuro}>
                     <div className="container">
@@ -16,6 +18,7 @@ export default class Rodape extends Component {
                         <p className="pull-right">Desenvolvido por Alessadro Spiercort</p>
                     </div>
                 </div>
+                <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
             </footer>
         );
     }
@@ -25,12 +28,10 @@ export default class Rodape extends Component {
 const styles = ({
 
     row_cinza_escuro: {
-        
         height: '50px',
         backgroundColor: '#333'
     },
     my_row: {
-
         width: '100%'
     },
 });
