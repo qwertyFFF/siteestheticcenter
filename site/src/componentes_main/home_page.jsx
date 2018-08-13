@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Parallax } from 'react-parallax';
 import GoogleMapReact from 'google-map-react';
+import Salao from './salao_imagem_1.jpeg';
 
-const image1 = "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
+const image1 = Salao;
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 export default class Home extends Component {
