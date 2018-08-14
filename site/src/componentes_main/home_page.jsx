@@ -38,7 +38,7 @@ export default class Home extends Component {
                 {/*Google Maps API*/}
                 <div className="container">
                     <h1>Teste</h1>
-                    <div style={{ height: '100vh', width: '100%' }}>
+                    <div style={{height: '70vh', width: '100%'}}>
                         <GoogleMapReact
                             bootstrapURLKeys={{ key: 'AIzaSyCOmI3kxB9Ua0meiiQy4QB2rDrlRc2GKG8' }}
                             defaultCenter={this.props.center}
