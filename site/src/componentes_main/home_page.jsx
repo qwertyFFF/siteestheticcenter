@@ -25,7 +25,7 @@ export default class Home extends Component {
                 <br/>
                 <div className="jumbotron">
                     <div style={styles.quem_somos}>
-                        <h1>Quem somos</h1>
+                        <h1>Quem somos!!!</h1>
                         <p>Lorem ipsum dolor elit imperdiet etiam mauris id laoreet nullam, velit rhoncus erat vel proin justo tempor aliquam accumsan, viverra lacinia torquent ullamcorper euismod nec mattis conubia. praesent curabitur congue faucibus venenatis metus quisque pharetra nisl phasellus, lacus convallis tortor hendrerit aliquam quis cursus elementum est, in tempor odio tincidunt magna metus magna condimentum. platea suspendisse luctus amet egestas lectus feugiat dolor, ornare consectetur faucibus molestie cras volutpat, conubia suspendisse litora dictumst nam vitae. vestibulum facilisis luctus felis inceptos elit amet praesent fames sem lobortis, curabitur eleifend magna elit velit nam odio sollicitudin donec etiam, aenean rhoncus nibh adipiscing curae aenean dictumst torquent cursus. </p>
                     </div>
                 </div>
