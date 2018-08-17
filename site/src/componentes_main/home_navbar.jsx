@@ -55,7 +55,6 @@ export default class MenuNavegacao extends Component {
                                     <DropdownItem>
                                         Mega Hair
                                     </DropdownItem>    
-                                    <DropdownItem divider />
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <UncontrolledDropdown nav inNavbar>

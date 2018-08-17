@@ -7,7 +7,6 @@ import Progressiva from './menu_cabelos/componentes_progressiva/progressiva';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Luzes from './menu_cabelos/componentes_luzes/luzes';
 
-
 ReactDOM.render(<MenuNavegacao />, document.getElementById('navbar'));
 
 ReactDOM.render(
