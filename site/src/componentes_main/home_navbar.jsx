@@ -8,11 +8,13 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
+    NavItem,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
+import {Icon} from 'react-fa';
 
 export default class MenuNavegacao extends Component {
     constructor(props) {
@@ -121,6 +123,11 @@ export default class MenuNavegacao extends Component {
                                     </DropdownItem>
                                 </DropdownMenu>    
                             </UncontrolledDropdown>
+                            <NavItem style={styles.my_contact_navbar}>
+                                Marque seu horário: 
+                                <i> <Icon name="whatsapp" size="lg"/> </i>
+                                (51) 99999-9999
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
@@ -128,3 +135,13 @@ export default class MenuNavegacao extends Component {
         );
     }
 }
+
+const styles = ({
+    my_contact_navbar: {
+        color: '#d4bdb7',
+        fontSize: '14px',
+        padding: '9px',
+        paddingLeft: '400px'
+        
+    },
+});

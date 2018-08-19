@@ -16,9 +16,9 @@ export default class Rodape extends Component {
                     <Col md="12" align="center">
                         <div style={styles.footer_redes}>
                             <p> Acesse nossas redes sociais e fique por dentro das novidades.</p>
-                        </div>
-                        <div>
-                            <Icon spin name="spinner"/>
+                            <br/>
+                            <a href="https://www.google.com.br" target="_blank"><i><Icon style={{color: '#d4bdb7'}} name="facebook-official" size="2x"/> </i></a>
+                            <a href="https://www.google.com.br" target="_blank"><i><Icon style={{color: '#d4bdb7'}} name="instagram" size="2x"/> </i></a>
                         </div>
                     </Col>
                 </div>
@@ -48,7 +48,7 @@ const styles = ({
     },
     footer_redes: {
         padding: '60px',
-        color: '#d4bdb7'
+        color: '#d4bdb7',
     }
 });
 
