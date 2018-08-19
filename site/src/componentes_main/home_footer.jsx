@@ -6,23 +6,21 @@ import {CircleArrow as ScrollButton} from "react-scroll-up-button";
 import {
     Col
 } from 'reactstrap';
+import {Icon} from 'react-fa';
 
 export default class Rodape extends Component {
     render() {
         return (
             <footer>
                 <div className="my-row row-cinza-claro">
-                    <div>
-                        <Col md="6">
-                            <div>
-                            </div>
-                        </Col>
-                        <Col md="6">
-                            <div>
-                                <p> Acesse nossas redes sociais e fique por dentro das novidades.</p>
-                            </div>
-                        </Col>
-                    </div>
+                    <Col md="12" align="center">
+                        <div style={styles.footer_redes}>
+                            <p> Acesse nossas redes sociais e fique por dentro das novidades.</p>
+                        </div>
+                        <div>
+                            <Icon spin name="spinner"/>
+                        </div>
+                    </Col>
                 </div>
                 <div className="my-row" style={styles.row_cinza_escuro}>
                     <div className="container">
@@ -49,10 +47,8 @@ const styles = ({
         width: '100%'
     },
     footer_redes: {
-        padding: '10px'
-    },
-    footer_contato: {
-
+        padding: '60px',
+        color: '#d4bdb7'
     }
 });
 

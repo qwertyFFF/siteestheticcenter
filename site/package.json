@@ -8,6 +8,7 @@
         "react": "^16.4.1",
         "react-devtools": "^3.2.3",
         "react-dom": "^16.4.1",
+        "react-fa": "^5.0.0",
         "react-fa-icon": "^0.1.4",
         "react-parallax": "^1.8.0",
         "react-photo-grid": "^1.4.4",
