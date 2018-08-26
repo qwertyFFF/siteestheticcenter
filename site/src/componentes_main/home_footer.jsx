@@ -17,8 +17,8 @@ export default class Rodape extends Component {
                         <div style={styles.footer_redes}>
                             <p> Acesse nossas redes sociais e fique por dentro das novidades.</p>
                             <br/>
-                            <a href="https://www.google.com.br" target="_blank"><i><Icon style={{color: '#d4bdb7'}} name="facebook-official" size="2x"/> </i></a>
-                            <a href="https://www.google.com.br" target="_blank"><i><Icon style={{color: '#d4bdb7'}} name="instagram" size="2x"/> </i></a>
+                            <a href="https://www.facebook.com/EstheticCenterReal/" target="_blank" rel="noopener noreferrer"><i><Icon style={{color: '#d4bdb7'}} name="facebook-official" size="2x"/> </i></a>
+                            <a href="https://www.instagram.com/estheticcenterreal/?hl=pt-br@estheticcenterreal" target="_blank" rel="noopener noreferrer"><i><Icon style={{color: '#d4bdb7'}} name="instagram" size="2x"/> </i></a>
                         </div>
                     </Col>
                 </div>
@@ -38,7 +38,6 @@ export default class Rodape extends Component {
 
 //Estilos home_footer
 const styles = ({
-
     row_cinza_escuro: {
         height: '50px',
         backgroundColor: '#333'

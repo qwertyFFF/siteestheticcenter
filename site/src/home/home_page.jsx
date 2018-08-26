@@ -58,9 +58,7 @@ export default class Home extends Component {
     }
 }
 
-//Estilos home_page
 const styles = ({
-
     quem_somos: {
         fontFamily: 'Roboto',
         textAlign: 'center',

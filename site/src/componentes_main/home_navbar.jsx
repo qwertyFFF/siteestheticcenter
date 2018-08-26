@@ -31,12 +31,10 @@ export default class MenuNavegacao extends Component {
         });
     }
 
-    /*FALTA INSERIR OS ÍCONES AO LADO DE CADA MENU DROPDOWN*/
-
     render() {
         return (
             <div>
-                <Navbar className="navbar navbar-expand-lg navbar-dark My-bg-primary fixed-top" expand="md">
+                <Navbar id="myNavbar" className="navbar navbar-expand-lg navbar-dark My-bg-primary fixed-top" expand="md">
                     <NavbarBrand className="my-text-navbrand-color" href="/"><img src={logo} alt="Logo navbar" style={{width: 45, height: 45}}/>
                         Esthetic Center
                     </NavbarBrand>
@@ -126,7 +124,9 @@ export default class MenuNavegacao extends Component {
                             <NavItem style={styles.my_contact_navbar}>
                                 Marque seu horário: 
                                 <i> <Icon name="whatsapp" size="lg"/> </i>
-                                (51) 99999-9999
+                                (51) 98512-9806 / 
+                                <i> <Icon name="phone-square" size="lg" /> </i> 
+                                (51) 3024-4732
                             </NavItem>
                         </Nav>
                     </Collapse>
@@ -141,7 +141,6 @@ const styles = ({
         color: '#d4bdb7',
         fontSize: '14px',
         padding: '9px',
-        paddingLeft: '400px'
-        
-    },
+        paddingLeft: '280px'
+    }
 });
