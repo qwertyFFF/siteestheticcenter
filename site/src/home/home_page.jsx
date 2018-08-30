@@ -31,7 +31,7 @@ export default class Home extends Component {
                 </div>
                 <Parallax bgImage={image1} strength={500}>
                     <div style={{height: 500}}>
-                        <h1 style={styles.insideParallax}>Um novo conceito em beleza</h1>
+                        <h1 style={styles.insideParallax}>Um novo conceito em beleza!</h1>
                     </div>
                 </Parallax>
                 <br/>
@@ -66,13 +66,14 @@ const styles = ({
     },
     insideParallax: {
         backgroundColor: 'rgba(212, 189, 183, 0.6)',
-        //Determinar fonte da frase no Parallax
-        fontFamily: '',
+        fontFamily: 'Great Vibes, cursive',
         padding: 20, 
         position: 'absolute', 
         top: '50%', 
         left: '50%', 
-        transform: 'translate(-50%,-50%)'
+        transform: 'translate(-50%,-50%)',
+        fontSize: '60px',
+        color: '#646464'
     },
     mapstyle: {
         height: '70vh', 
@@ -81,3 +82,4 @@ const styles = ({
         border: '2px solid'
     }
 });
+

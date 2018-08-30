@@ -3,10 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
 import logo from './logo.png';
 import {CircleArrow as ScrollButton} from "react-scroll-up-button";
-import {
-    Col
-} from 'reactstrap';
+import {Col} from 'reactstrap';
 import {Icon} from 'react-fa';
+import react_footer_image from './imagens/react_footer.png';
 
 export default class Rodape extends Component {
     render() {
@@ -24,10 +23,13 @@ export default class Rodape extends Component {
                 </div>
                 <div className="my-row" style={styles.row_cinza_escuro}>
                     <div className="container">
-                        <p className="pull-left"><img src={logo} alt="Logo footer" style={{width: 45, height: 45}}/>
-                            Esthetic Center &copy; {new Date().getFullYear()} - Todos os direitos reservados
+                        <p className="pull-left">
+                            <img src={logo} alt="Logo footer" style={{width: 45, height: 45}}/>Esthetic Center &copy; {new Date().getFullYear()} - Todos os direitos reservados
                         </p>
-                        <p className="pull-right">Desenvolvido por Alessadro Spiercort</p>
+                        <p className="pull-right">
+                            Desenvolvido por Alessadro Spiercort em <a style={{color:'#d4bdb7'}} href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">ReactJS</a> <img src={react_footer_image} style={{width:'4%'}} alt=""/>    
+                        </p>
+                        
                     </div>
                 </div>
                 <ScrollButton scrollStepInPx="50" delayInMs="10.66"/>
