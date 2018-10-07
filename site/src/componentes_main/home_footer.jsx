@@ -27,9 +27,9 @@ export default class Rodape extends Component {
                             <img src={logo} alt="Logo footer" style={{width: 45, height: 45}}/>Esthetic Center &copy; {new Date().getFullYear()} - Todos os direitos reservados
                         </p>
                         <p className="pull-right">
-                            Desenvolvido por Alessadro Spiercort em <a style={{color:'#d4bdb7'}} href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">ReactJS</a> <img src={react_footer_image} style={{width:'4%'}} alt=""/>    
+                            Desenvolvido por Alessadro Spiercort em <a style={{color:'#d4bdb7'}} href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">ReactJS</a> <img src={react_footer_image} style={{width:'4%'}} alt=""/>
                         </p>
-                        
+
                     </div>
                 </div>
                 <ScrollButton scrollStepInPx="50" delayInMs="10.66"/>
