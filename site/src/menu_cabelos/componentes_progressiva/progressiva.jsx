@@ -4,6 +4,7 @@ import FotoReact from './imagens/react.jpeg';
 import Skull from './imagens/skull_punisher.jpg';
 import Gallery from 'react-photo-gallery';
 
+
 const PHOTO_SET = [
   {
     src: FotoReact,
@@ -18,20 +19,37 @@ const PHOTO_SET = [
 ];
 
 class Progressiva extends Component {
+
   onClick(){
 
+
+
   }
+
   render() {
+
     return (
+
       <div>
+
         <br/>
+
         <br/>
+
         <br/>
+
         <br/>
+
         <Gallery photos={PHOTO_SET} />
+
       </div>
+
     );
+
   }
+
 }
+
+
 
 export default Progressiva;
